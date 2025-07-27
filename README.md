@@ -28,8 +28,7 @@ Before you begin, ensure you have the following installed:
 
 * **Python 3.8+**
 * **pip** (Python package installer)
-* **Ollama** (for running local LLMs). If you want to find out how to run models locally with ollama [Click Me](https://basitsameerpersonalportfolio.vercel.app/blogs/ollama-your-local-gateway-to-large-language-models)
-* **Brave Search API Key** (for web search capabilities)
+* **Ollama** (for running local LLMs)
 
 ---
 
