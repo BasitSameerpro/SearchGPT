@@ -34,7 +34,7 @@ Before you begin, ensure you have the following installed:
 
 ### Step 1: Project Setup
 
-Make sure all your project files (agent.py, brave_search.py, final_response.py, query_maker.py, re_extraction.py, search_data.py, summarizer.py) are in the same directory.
+Make sure all your project files (agent.py, brave_search.py, final_response.py, query_maker.py, search_data.py, summarizer.py) are in the same directory.
 
 ---
 
