@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed:
 
 * **Python 3.8+**
 * **pip** (Python package installer)
-* **Ollama** (for running local LLMs)
+* **Ollama** (for running local LLMs). If you want to find out how to run models locally with ollama [Click Me](https://basitsameerpersonalportfolio.vercel.app/blogs/ollama-your-local-gateway-to-large-language-models)
 * **Brave Search API Key** (for web search capabilities)
 
 ---
@@ -45,7 +45,7 @@ Navigate to your project directory in the terminal and install the required Pyth
 
 `pip install langchain-ollama langchain-core requests python-dotenv inscriptis playwright`
 
-`playwright install # Install browser binaries for Playwright`
+`playwright install` # Install browser binaries for Playwright
 
 ---
 
