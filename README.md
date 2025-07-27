@@ -35,7 +35,7 @@ Before you begin, ensure you have the following installed:
 
 ### Step 1: Project Setup
 
-Make sure all your project files (agent.py, brave_search.py, final_response.py, query_maker.py, re_extraction.py, search_data.py, summarizer.py, and potentially app.py if you're using Streamlit) are in the same directory.
+Make sure all your project files (agent.py, brave_search.py, final_response.py, query_maker.py, re_extraction.py, search_data.py, summarizer.py) are in the same directory.
 
 ---
 
@@ -44,11 +44,8 @@ Make sure all your project files (agent.py, brave_search.py, final_response.py, 
 Navigate to your project directory in the terminal and install the required Python libraries:
 
 `pip install langchain-ollama langchain-core requests python-dotenv inscriptis playwright`
+
 `playwright install # Install browser binaries for Playwright`
-
-If you plan to use the Streamlit web interface (highly recommended for a user-friendly experience), also install:
-
-`pip install streamlit`
 
 ---
 
@@ -101,7 +98,7 @@ Remember to replace "YOUR_BRAVE_API_KEY_HERE" with the actual key you obtained. 
 
 ### Step 5: Run the Agent
 
-You have two convenient ways to run the agent: via the command line for direct interaction or through a Streamlit web interface for a more graphical experience.
+You have two convenient ways to run the agent: via the command line for direct interaction.
 
 #### Option 1: Command Line Interface (CLI)
 
