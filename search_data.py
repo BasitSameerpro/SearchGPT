@@ -56,7 +56,7 @@ class data():
             """)
             page = await context.new_page()
             try:
-                await page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+                await page.goto(url, wait_until="domcontentloaded", timeout=30000)
                 await asyncio.sleep(2)
                 content = await page.content()
             except PlaywrightTimeout:
