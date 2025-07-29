@@ -1,7 +1,6 @@
 from langgraph.graph import StateGraph,START,END
 from brave_search import Brave_SERP
 from search_data import data
-# from re_extraction import etuData
 from summarizer import website_sumarizer
 from query_maker import query_maker
 from final_response import make_final_response
